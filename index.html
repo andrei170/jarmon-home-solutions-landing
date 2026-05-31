@@ -35,6 +35,10 @@
  "@context":"https://schema.org","@type":"FAQPage","mainEntity":[
   {"@type":"Question","name":"How much does it cost to install an EV charger in Cincinnati?","acceptedAnswer":{"@type":"Answer","text":"Most home Level 2 EV charger installations range based on the distance from your electrical panel, whether a panel upgrade is needed, and the charger model. Jarmon Home Solutions gives a clear, upfront quote after a quick assessment."}},
   {"@type":"Question","name":"Do I need a panel upgrade to install an EV charger?","acceptedAnswer":{"@type":"Answer","text":"Sometimes. A Level 2 charger draws significant power, so if your panel is older or near capacity it may need an upgrade. We check your panel and tell you straight whether an upgrade is required before any work begins."}},
+  {"@type":"Question","name":"Can I still claim the federal 30C tax credit for a home EV charger?","acceptedAnswer":{"@type":"Answer","text":"The federal 30C tax credit for residential EV charging equipment is currently scheduled to expire June 30, 2026, so the install must be complete before that date to be claimed on the 2026 tax return. Eligibility is between you and your accountant. We provide the documentation you need to support the claim."}},
+  {"@type":"Question","name":"How long does an EV charger installation take?","acceptedAnswer":{"@type":"Answer","text":"A straightforward Level 2 install where no panel upgrade is needed usually takes a few hours and is finished in a single visit. If your panel needs an upgrade, plan on an additional visit for the panel work, which can be scheduled the same week."}},
+  {"@type":"Question","name":"Do I need a permit for an EV charger in Cincinnati?","acceptedAnswer":{"@type":"Answer","text":"Yes. Cincinnati and the surrounding jurisdictions require an electrical permit for a Level 2 EV charger install, and inspection after the work is complete. We handle the permit, the install, and the inspection coordination as part of the job."}},
+  {"@type":"Question","name":"Will an EV charger affect my home insurance?","acceptedAnswer":{"@type":"Answer","text":"A code-correct, permitted, professionally installed EV charger generally does not raise homeowners insurance. A DIY or unpermitted install can, and may also create issues at the time of a claim. Confirm specifics with your insurance provider."}},
   {"@type":"Question","name":"Are you licensed and insured?","acceptedAnswer":{"@type":"Answer","text":"Yes. Jarmon Home Solutions is a licensed electrician and general contractor registered with the City of Cincinnati and the State of Ohio, and all work meets NEC code and OSHA safety standards."}}
  ]
 }
@@ -160,11 +164,18 @@
   .foot a{color:var(--blue-2)}
   .disc{font-size:11.5px;color:#586377;line-height:1.7;max-width:900px}
   .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}.reveal.in{opacity:1;transform:none}
+
+  .deadline-strip{background:linear-gradient(90deg,#0b1220,#1d2a47);color:#fff;text-align:center;font-family:'Space Grotesk',sans-serif;font-size:13.5px;font-weight:500;padding:11px 18px;letter-spacing:.3px;border-bottom:1px solid rgba(59,130,246,.35)}
+  .deadline-strip b{color:var(--cyan);font-weight:700;letter-spacing:.5px}
+  .deadline-strip a{color:var(--blue-2);text-decoration:underline;font-weight:600}
+  @media(max-width:560px){.deadline-strip{font-size:12.5px;padding:10px 14px;line-height:1.4}}
 </style>
 </head>
 <body>
 <a href="#services" class="skip">Skip to content</a>
 <div id="progress"></div>
+
+<div class="deadline-strip"><b>FEDERAL 30C EV CHARGER TAX CREDIT EXPIRES JUNE 30, 2026.</b> &nbsp;Book your install now to finish before the window closes. &nbsp;<a href="#quote">Get a free quote</a>.</div>
 
 <header>
   <div class="wrap nav">
@@ -187,15 +198,16 @@
 <section class="hero">
   <div class="wrap">
     <span class="eyebrow">Licensed &amp; Insured &middot; Cincinnati</span>
-    <h1>Cincinnati's <span class="g">EV charger</span> &amp; home electrician.</h1>
-    <p>From Level 2 EV charger installs to panel upgrades, smart home and rewires, done by a licensed electrician and general contractor who does it right and explains it clearly.</p>
+    <h1>Cincinnati's <span class="g">EV charger</span> installer. Booked solid through June 30.</h1>
+    <p>Level 2 EV charger installs done by a dual-licensed electrician and general contractor, before the federal 30C tax credit window closes. Same job, the right way, with permits and inspection handled.</p>
     <div class="hero-cta">
       <a href="#quote" class="btn">Get My Free Quote</a>
       <a href="tel:+15132668290" class="btn btn-ghost">Call (513) 266-8290</a>
     </div>
     <div class="hero-trust">
-      <div><b>2017</b><span>Serving Cincinnati since</span></div>
-      <div><b>Licensed</b><span>Electrician &amp; GC</span></div>
+      <div><b>Jun 30</b><span>30C credit window</span></div>
+      <div><b>2017</b><span>Cincinnati since</span></div>
+      <div><b>Dual licensed</b><span>Electrician &amp; GC</span></div>
       <div><b>5 counties</b><span>Hamilton, Butler &amp; more</span></div>
       <div><b>NEC</b><span>Code &amp; OSHA compliant</span></div>
     </div>
@@ -206,13 +218,14 @@
   <div class="wrap fgrid">
     <div class="reveal">
       <span class="kick">EV Charger Installation</span>
-      <h2>Charge at home, the right way.</h2>
-      <p>Got a new EV? A proper Level 2 home charger means waking up to a full battery every morning. We handle the whole job: assessment, permits, panel check, and a clean, code-correct install.</p>
+      <h2>Charge at home, before the 30C window closes.</h2>
+      <p>A proper Level 2 home charger means waking up to a full battery every morning. The federal 30C tax credit for residential EV charger installations is scheduled to expire June 30, 2026, so the install needs to be complete before that date for homeowners to claim it on their 2026 return. We handle the whole job: assessment, permits, panel check, and a clean, code-correct install.</p>
       <ul>
-        <li>Level 2 (240V) home charger installation</li>
-        <li>Tesla, ChargePoint and universal chargers</li>
-        <li>Panel capacity check and upgrade if needed</li>
-        <li>Permits and inspection handled for you</li>
+        <li>Level 2 (240V) home charger installation, indoors or garage</li>
+        <li>Tesla Wall Connector, ChargePoint Home Flex, Wallbox Pulsar Plus, Grizzl-E, and universal NEMA 14-50 plugs</li>
+        <li>Panel capacity check and upgrade if needed (service, breaker, conduit)</li>
+        <li>Permits pulled, inspection coordinated, and final sign-off with the City of Cincinnati or your local jurisdiction</li>
+        <li>Documentation packet for your accountant to claim the 30C credit (eligibility decisions stay with you and your tax pro)</li>
       </ul>
       <a href="#quote" class="btn">Quote My EV Charger Install</a>
     </div>
@@ -222,6 +235,7 @@
       <div class="stat"><span>Typical install</span><b>Same / next day</b></div>
       <div class="stat"><span>Panel upgrade?</span><b>We check first</b></div>
       <div class="stat"><span>Permits &amp; inspection</span><b>Handled by us</b></div>
+      <div class="stat"><span>30C deadline</span><b>Jun 30, 2026</b></div>
       <div class="stat"><span>Quote</span><b>Free &amp; upfront</b></div>
     </div>
   </div>
@@ -265,8 +279,9 @@
 
 <section id="areas" style="background:var(--paper-2)">
   <div class="wrap">
-    <div class="sec-head reveal"><span class="kick">Service Areas</span><h2>Serving Greater Cincinnati</h2></div>
+    <div class="sec-head reveal"><span class="kick">Service Areas</span><h2>Serving Greater Cincinnati</h2><p>EV charger installs and full electrical service across 5 counties and the neighborhoods inside them.</p></div>
     <div class="areas reveal"><span>Hamilton County</span><span>Butler County</span><span>Warren County</span><span>Clermont County</span><span>Brown County</span></div>
+    <div class="areas reveal" style="margin-top:18px;opacity:.92"><span>Cincinnati</span><span>Madeira</span><span>Blue Ash</span><span>Anderson Township</span><span>Mariemont</span><span>Loveland</span><span>Montgomery</span><span>Mason</span><span>West Chester</span><span>Liberty Township</span><span>Hamilton</span><span>Fairfield</span><span>Lebanon</span><span>Springboro</span><span>Milford</span><span>Batavia</span><span>Amelia</span><span>Bethel</span></div>
   </div>
 </section>
 
@@ -274,8 +289,12 @@
   <div class="wrap">
     <div class="sec-head reveal"><span class="kick">EV &amp; Electrical FAQ</span><h2>Good questions, straight answers</h2></div>
     <div class="faq">
+      <div class="faq-item reveal"><div class="faq-q">Can I still claim the federal 30C tax credit for a home EV charger?<span class="pm">+</span></div><div class="faq-a"><div>The federal 30C tax credit for residential EV charging equipment is currently scheduled to expire June 30, 2026, so the install must be complete before that date to be claimed on a 2026 return. Eligibility decisions stay with you and your accountant. We provide the documentation you need to support the claim.</div></div></div>
       <div class="faq-item reveal"><div class="faq-q">How much does an EV charger install cost in Cincinnati?<span class="pm">+</span></div><div class="faq-a"><div>It depends on the distance from your panel, whether a panel upgrade is needed, and the charger model. We assess quickly and give a clear, upfront quote before any work starts.</div></div></div>
-      <div class="faq-item reveal"><div class="faq-q">Do I need a panel upgrade for an EV charger?<span class="pm">+</span></div><div class="faq-a"><div>Sometimes. A Level 2 charger draws real power, so older or near-capacity panels may need an upgrade. We check first and tell you straight.</div></div></div>
+      <div class="faq-item reveal"><div class="faq-q">How long does an EV charger installation take?<span class="pm">+</span></div><div class="faq-a"><div>A straightforward Level 2 install where no panel upgrade is needed usually finishes in a single visit of a few hours. If your panel needs an upgrade, plan on an additional visit, which we can schedule the same week so the full job still wraps fast.</div></div></div>
+      <div class="faq-item reveal"><div class="faq-q">Do I need a panel upgrade for an EV charger?<span class="pm">+</span></div><div class="faq-a"><div>Sometimes. A Level 2 charger draws real power, so older or near-capacity panels may need an upgrade. We check first and tell you straight before any work begins.</div></div></div>
+      <div class="faq-item reveal"><div class="faq-q">Do I need a permit for an EV charger in Cincinnati?<span class="pm">+</span></div><div class="faq-a"><div>Yes. Cincinnati and the surrounding jurisdictions require an electrical permit for a Level 2 EV charger install, and inspection after the work is complete. We handle the permit, the install, and the inspection coordination as part of the job.</div></div></div>
+      <div class="faq-item reveal"><div class="faq-q">Will an EV charger affect my home insurance?<span class="pm">+</span></div><div class="faq-a"><div>A code-correct, permitted, professionally installed charger generally does not raise homeowners insurance. A DIY or unpermitted install can, and may also create issues at the time of a claim. Confirm specifics with your insurance provider.</div></div></div>
       <div class="faq-item reveal"><div class="faq-q">Are you licensed and insured?<span class="pm">+</span></div><div class="faq-a"><div>Yes. We are a licensed electrician and general contractor registered with the City of Cincinnati and the State of Ohio, working to NEC code and OSHA standards.</div></div></div>
     </div>
   </div>
@@ -307,7 +326,7 @@
       <div><div class="name">JARMON HOME SOLUTIONS</div><div style="margin-top:6px">Licensed Electrician &amp; General Contractor &middot; Cincinnati, OH</div><div style="margin-top:4px"><a href="tel:+15132668290">(513) 266-8290</a></div></div>
       <div style="text-align:right"><div style="color:#c4cedd;font-family:'Space Grotesk';font-size:15px">Licensed &amp; Insured</div><div style="margin-top:6px">NEC &amp; OSHA compliant</div><div>Serving 5 counties</div></div>
     </div>
-    <p class="disc">Jarmon Home Solutions serves Hamilton, Butler, Warren, Clermont and Brown counties, Ohio. Reviews shown are from verified third-party platforms and reflect individual experiences. Pilot sample design prepared by AG1 Consulting for review. &copy; 2026 Jarmon Home Solutions.</p>
+    <p class="disc">Jarmon Home Solutions serves Hamilton, Butler, Warren, Clermont and Brown counties, Ohio. Reviews shown are from verified third-party platforms and reflect individual experiences. References to the federal 30C tax credit are for general information only and reflect publicly available guidance as of 2026. Eligibility, claim amounts, and filing decisions are between the homeowner and their tax professional. Pilot sample design prepared by Andrei Givero &amp; Lorenzo Goodrum, Co-founders, AG1 Consulting. &copy; 2026 Jarmon Home Solutions.</p>
   </div>
 </footer>
 
