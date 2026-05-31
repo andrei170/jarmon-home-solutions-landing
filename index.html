@@ -165,6 +165,10 @@
   .disc{font-size:11.5px;color:#586377;line-height:1.7;max-width:900px}
   .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}.reveal.in{opacity:1;transform:none}
 
+  .ic{color:var(--blue)}
+  .ic svg{width:26px;height:26px;display:block}
+  .fab svg{width:18px;height:18px;vertical-align:-3px;margin-right:4px}
+
   .deadline-strip{background:linear-gradient(90deg,#0b1220,#1d2a47);color:#fff;text-align:center;font-family:'Space Grotesk',sans-serif;font-size:13.5px;font-weight:500;padding:11px 18px;letter-spacing:.3px;border-bottom:1px solid rgba(59,130,246,.35)}
   .deadline-strip b{color:var(--cyan);font-weight:700;letter-spacing:.5px}
   .deadline-strip a{color:var(--blue-2);text-decoration:underline;font-weight:600}
@@ -245,12 +249,12 @@
   <div class="wrap">
     <div class="sec-head reveal"><span class="kick">Services</span><h2>Full residential &amp; commercial electrical</h2><p>One licensed pro for everything from a new outlet to a whole-home rewire.</p></div>
     <div class="svc">
-      <div class="scard hot reveal"><span class="tag">Most requested</span><div class="ic">&#128267;</div><h3>EV Charger Installation</h3><p>Level 2 home charging, installed safe and code-correct.</p></div>
-      <div class="scard reveal"><div class="ic">&#9889;</div><h3>Panel &amp; Service Upgrades</h3><p>Modern panels and service upgrades to handle today's electrical load.</p></div>
-      <div class="scard reveal"><div class="ic">&#127968;</div><h3>Smart Home Automation</h3><p>Lighting, switches and smart systems set up and integrated cleanly.</p></div>
-      <div class="scard reveal"><div class="ic">&#128161;</div><h3>Complete Rewires</h3><p>Whole-home and basement rewiring, grounding and code corrections.</p></div>
-      <div class="scard reveal"><div class="ic">&#128680;</div><h3>Repairs &amp; Troubleshooting</h3><p>Outlets, fixtures, faults and safety issues diagnosed and fixed.</p></div>
-      <div class="scard reveal"><div class="ic">&#128760;</div><h3>Drone Inspections</h3><p>Modern, thorough inspections for hard-to-reach electrical and rooftop work.</p></div>
+      <div class="scard hot reveal"><span class="tag">Most requested</span><div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2v3M15 2v3"/><rect x="7" y="6" width="10" height="9" rx="2"/><path d="M12 15v4M9 19h6"/></svg></div><h3>EV Charger Installation</h3><p>Level 2 home charging, installed safe and code-correct.</p></div>
+      <div class="scard reveal"><div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="13 2 3 14 11 14 10 22 21 9 13 9 13 2"/></svg></div><h3>Panel &amp; Service Upgrades</h3><p>Modern panels and service upgrades to handle today's electrical load.</p></div>
+      <div class="scard reveal"><div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/><circle cx="12" cy="14" r="1"/></svg></div><h3>Smart Home Automation</h3><p>Lighting, switches and smart systems set up and integrated cleanly.</p></div>
+      <div class="scard reveal"><div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.8c.7.6 1 1.4 1 2.2v1h6v-1c0-.8.3-1.6 1-2.2A7 7 0 0 0 12 2z"/></svg></div><h3>Complete Rewires</h3><p>Whole-home and basement rewiring, grounding and code corrections.</p></div>
+      <div class="scard reveal"><div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94L7.5 19.7a2.12 2.12 0 0 1-3-3l6.23-6.23a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div><h3>Repairs &amp; Troubleshooting</h3><p>Outlets, fixtures, faults and safety issues diagnosed and fixed.</p></div>
+      <div class="scard reveal"><div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg></div><h3>Drone Inspections</h3><p>Modern, thorough inspections for hard-to-reach electrical and rooftop work.</p></div>
     </div>
   </div>
 </section>
@@ -259,9 +263,9 @@
   <div class="wrap">
     <div class="sec-head reveal"><span class="kick">Why Jarmon</span><h2>Licensed, clear, and on time</h2></div>
     <div class="svc">
-      <div class="scard reveal"><div class="ic">&#129534;</div><h3>Dual Licensed</h3><p>Licensed electrician and general contractor with the City of Cincinnati and State of Ohio.</p></div>
-      <div class="scard reveal"><div class="ic">&#129309;</div><h3>Clear, Honest Pricing</h3><p>Upfront quotes and real explanation of your options, so you always know what you are paying for.</p></div>
-      <div class="scard reveal"><div class="ic">&#9989;</div><h3>Code &amp; Safety First</h3><p>Every job meets NEC code and OSHA safety standards. Done once, done right.</p></div>
+      <div class="scard reveal"><div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg></div><h3>Dual Licensed</h3><p>Licensed electrician and general contractor with the City of Cincinnati and State of Ohio.</p></div>
+      <div class="scard reveal"><div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div><h3>Clear, Honest Pricing</h3><p>Upfront quotes and real explanation of your options, so you always know what you are paying for.</p></div>
+      <div class="scard reveal"><div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div><h3>Code &amp; Safety First</h3><p>Every job meets NEC code and OSHA safety standards. Done once, done right.</p></div>
     </div>
   </div>
 </section>
@@ -318,7 +322,7 @@
   </div>
 </section>
 
-<a href="tel:+15132668290" class="fab">&#9742;&nbsp; Call (513) 266-8290 &middot; Free Quote</a>
+<a href="tel:+15132668290" class="fab"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Call (513) 266-8290 &middot; Free Quote</a>
 
 <footer>
   <div class="wrap">
